@@ -60,8 +60,10 @@ main {
 
 footer {
 
-    background-color: blueviolet;
-    height: 100px;
+    background-color: rgba(0, 0, 0, 0.37);
+   /* height: 100px; */
+    text-align: center;
+    padding: 1px;
     
 }
 
@@ -95,4 +97,13 @@ nav a {
     padding-right: 10px;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
