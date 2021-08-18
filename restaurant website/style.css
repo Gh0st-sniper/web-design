@@ -37,8 +37,10 @@ header {
 nav {
 
     background-color: rgba(0, 0, 0, 0.301);
-    height: 40px;
+    /*height: 40px; */
     text-align:center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 
@@ -84,4 +86,13 @@ a {
     
    color: white;
     text-decoration: underline;
+}
+
+
+nav a {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
